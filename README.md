@@ -1,20 +1,23 @@
 # Demo Task
 
-This project is a simple tic-tac-toe game created using basic HTML text.
+This is a simple tic-tac-toe game created using HTML and CSS.
 
 ## Setup
-No setup is required for this project. Simply download or clone the repository to your local machine and open the `index.html` file in your preferred web browser.
 
-## Usage
-To play the game, simply open the `index.html` file in a web browser. Click on the squares to place either an 'X' or an 'O'. The game will automatically switch between players and determine the winner.
+To run this project, simply clone the repository to your local machine and open the index.html file in a web browser.
 
-## Code Explanation
-The game logic is implemented using JavaScript within the `scripts.js` file. The HTML file contains the structure for the game board and players.
-
-```javascript
-// JavaScript code for tic-tac-toe game
-// Add code explanation here
+```bash
+git clone https://github.com/your-username/demo-task.git
 ```
 
+## Usage
+
+Once the game is loaded in the web browser, players can take turns clicking on the squares to place their X or O. The first player to get three in a row horizontally, vertically, or diagonally wins the game.
+
+## Code Explanation
+
+The game logic is implemented using JavaScript. The game board is represented as an array with 9 elements, each representing a square on the board. The game checks for a win by checking all possible winning combinations after each move.
+
 ## License
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
